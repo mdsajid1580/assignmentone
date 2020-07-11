@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Assignment</title>
+    
+    <style>
+        *{
+            font-family:  sans-serif;
+            padding:0;
+            margin:0;
+            
+        }
+        .wrapper{
+            background-color: #d7e7f4 ;
+        }
+        #main{
+            background-color: white;
+            width:75%;
+            height:100vh;
+            margin:auto;
+        }
+        .logo {
+            margin-left:22px;
+        }
+        .login{
+            color:#007BAF;
+            font-weight: 650;
+            text-align: right;
+            margin-right: 22px;
+            margin-top:30px;
+            margin-bottom: 15px;;
+        }
+        input{
+            width:180px;
+            height: 25px;
+            border:none;
+            border:rgb(231, 226, 226) 2px solid;
+        }
+        button{
+            background: url(search.png);
+            margin-right:22px;
+            padding:0 7px;
+            color:transparent;height: 25px;
+            border: none;
+        }
+        .head{
+            display:flex;
+            justify-content: space-between;
+        }
+        .head2{
+            margin-right:22px;
+        }
+        hr{
+            
+            border:black 2px solid;
+            margin-top:17%;
+        }
+        @media only screen and (max-device-width: 480px) {
+            body { 
+             width:100vw;   
+                 
+            }
+            .wrapper{
+                width:100vw;
+        
+            }
+            #main{
+                width:100vw;
+            }
+            .logo{
+                width:120px;
+                margin:5px;
+                 margin-right:-100px;
+            }
+            .login{
+            color:#007BAF;
+            font-weight: 550;
+            text-align: right;
+            margin-right: 5px;
+            margin-top:15px;
+            margin-bottom: 5px;
+            font-size: 10px;
+            }
+            input{
+                width:120px;
+                height: 12px;
+                
+            }
+            button{
+                width:35px;
+                height: 10px;
+                background-position: center;
+                background-size: cover;
+                margin-right:0px;
+                text-align: center;
+            }
+            
+            .head2{
+                margin-right:5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       
+        <div id="main">
+            <header class="head">
+                <div>
+                    <img class="logo" src="logo.png" alt="logo">
+                </div>
+                <div class="head2">
+                    <h3 class="login"><u>Login To My Account</u></h5>
+                    <input type="text" placeholder="Search entire store here...">
+                    <button type="submit">.search....</button>
+                </div>
+                
+            </header>
+            <hr>
+        </div>
+    </div>
+    
+</body>
+</html>
